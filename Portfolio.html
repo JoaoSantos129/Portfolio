@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="fade-in">
+        <div class="main-container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Showcasing my skills, projects, and passion for web development.</p>
+        </div>
+    </header>
+
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+            <a href="#about-me" class="dropbtn">About Me</a>  <!-- Corrected the link to #about-me -->
+            <div class="dropdown-content">
+                <a href="#who-i-am">Who I Am</a> <!-- Corrected to #who-i-am -->
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#projects" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+                <a href="#project1">Project 1</a>
+                <a href="#project2">Project 2</a>
+                <a href="#project3">Project 3</a>
+                <a href="#project4">Project 4</a>
+                <a href="#project5">Project 5</a>
+                <a href="#project6">Project 6</a>
+            </div>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="section fade-in"> <!-- Added the Home section here -->
+    <div class="container">
+        <h2>Home</h2>
+        <p>Welcome to my personal portfolio! Here you will find all the information about me, my skills, and the projects I have worked on. Feel free to explore!</p>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about-me" class="section fade-in"> <!-- Corrected the ID here to #about-me -->
+    <div class="container">
+        <h2>About Me</h2>
+        <div id="who-i-am" class="subsection"> <!-- Added ID #who-i-am -->
+            <h3>Who I Am</h3>
+            <p>With a strong foundation in programming and solid problem-solving skills, I have developed a deep passion for creating applications, websites, and especially games. I enjoy crafting creative, unique and user-friendly applications.</p>
+        </div>
+        <div id="skills" class="subsection">
+            <h3>Skills</h3>
+            <p>Here are some of the skills I have acquired through my journey:</p>
+            <ul>
+                <li><strong>Game developpement:</strong> Unity, C#, Monogame, Scratch</li>
+                <li><strong>Web and App Developpement:</strong> C#, PHP, HTML, CSS, SQL, JavaScript</li>
+                <li><strong>Other Languages and Tools:</strong> C, Git, Markdown, Microsoft Office, CSV, Powershell</li>
+                <li><strong>Other Skills:</strong> Problem-solving, Organization, Teamwork, Technical Documentation, Project Management, </li>
+            </ul>
+        </div>
+        <div id="experience" class="subsection">
+            <h3>Experience</h3>
+            <p>Below are some of the positions I’ve held in IT field:</p>
+            <ul>
+                <li><strong>IT Support Technician at Kudelski Group</strong> (Feb 2024 - May 2024): Worked on the IT Group of the company. This was a short Internship where I mainly discovered the professional world, teamwork and concientency.</li>
+                <li><strong>IT Support Technician at IMD</strong> (May 2024 - January 2025): Worked on the IT Group of the company. In this Internship I developped a lot my teamwork, project management and specially problem-solving skills by helping users with IT issues. Helping user with IT problems got me much better at debugging as well as taking tasks step by step knowing which to prioritize.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section fade-in">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div id="project1" class="project-item scale-up">
+                        <h3>Project 1: Fireboy & Watergirl - Software Game</h3>
+                        <p>A personal blog where I write articles on web development topics. Built using React and Node.js.</p>
+                    </div>
+                    <div id="project2" class="project-item scale-up">
+                        <h3>Project 2: Mine Age Idle - Software Game</h3>
+                        <p>An e-commerce platform with full shopping cart functionality, payment processing, and an admin dashboard. Built using Vue.js and Express.js.</p>
+                    </div>
+                    <div id="project3" class="project-item scale-up">
+                        <h3>Project 3: Ultimate Tic-Tac-Toe - Software Game</h3>
+                        <p>A task management application with features like user authentication, task creation, and progress tracking. Built using React and Firebase.</p>
+                    </div>
+                    <div id="project4" class="project-item scale-up">
+                        <h3>Project 4: Mouse To House - Website</h3>
+                        <p>A task management application with features like user authentication, task creation, and progress tracking. Built using React and Firebase.</p>
+                    </div>
+                    <div id="project5" class="project-item scale-up">
+                        <h3>Project 5: Battleship - Software Game</h3>
+                        <p>A task management application with features like user authentication, task creation, and progress tracking. Built using React and Firebase.</p>
+                    </div>
+                    <div id="project6" class="project-item scale-up">
+                        <h3>Project 6: Simon Says - Physical Game</h3>
+                        <p>A task management application with features like user authentication, task creation, and progress tracking. Built using React and Firebase.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section fade-in">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you're interested in collaborating or learning more, feel free to reach out!</p>
+                <a href="mailto:example@example.com" class="btn bounce">Email Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="animations.js"></script>
+</body>
+</html>
