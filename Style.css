@@ -15,7 +15,6 @@ body {
 }
 
 .container {
-    width: 80%;
     margin: 0;
 }
 
@@ -119,6 +118,8 @@ main {
     opacity: 0;  /* Initial state for fade-in */
     transform: translateY(50px);  /* Initial state for slide-in */
     transition: opacity 1s ease-out, transform 1s ease-out;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 /* Title Styles */
